@@ -1,0 +1,51 @@
+### Hotels
+### Get all hotels from localhost
+GET http://localhost:8888/hotels
+
+### Get hotel by id from localhost
+GET http://localhost:8888/hotels/6659483a4ba8dd92b1032d39
+
+### Get all hotels from render
+GET https://hotelierpro-project.onrender.com/hotels
+
+### Get hotel by id from render
+GET https://hotelierpro-project.onrender.com/60d5ec49c2a0625f97e11018
+
+### Staff
+### Get all staff from localhost
+GET http://localhost:8888/staff
+
+### Get staff by id from localhost
+GET http://localhost:8888/staff/66594a944ba8dd92b1032d45
+
+### Get all staff from render
+GET https://hotelierpro-project.onrender.com/staff
+
+### Get staff by id from render
+GET https://hotelierpro-project.onrender.com/staff/66594a944ba8dd92b1032d45
+
+### Clients
+### Get all clients from localhost
+GET http://localhost:8888/clients
+
+### Get client by id from localhost
+GET http://localhost:8888/clients/66594c694ba8dd92b1032d4d
+
+### Get all clients from render
+GET https://hotelierpro-project.onrender.com/clients
+
+### Get client by id from render
+GET https://hotelierpro-project.onrender.com/66594c694ba8dd92b1032d4d
+
+### Bookings
+### Get all bookings from localhost
+GET http://localhost:8888/bookings
+
+### Get booking by id from localhost
+GET http://localhost:8888/bookings/665950b94ba8dd92b1032d53
+
+### Get all bookings from render
+GET https://hotelierpro-project.onrender.com/bookings
+
+### Get booking by id from render
+GET https://hotelierpro-project.onrender.com/665950b94ba8dd92b1032d53
