@@ -5,7 +5,7 @@
     "description": "This is an API for HotelierPro application, providing endpoints for managing hotels, staff, clients, and bookings.",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341-final-project-phmu.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
