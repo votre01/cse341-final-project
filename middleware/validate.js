@@ -2,13 +2,14 @@ const validator = require('../helpers/validate');
 
 const saveBooking = (req, res, next) => {
   const validationRule = {
-    clientId: 'required|string',
     hotelId: 'required|string',
     checkInDate: 'required|string',
     checkOutDate: 'required|string',
     roomType: 'required|string',
+    roomNumber: 'required|string',
     numOfGuests: 'required|integer',
-    totalPrice: 'required|integer'
+    totalPrice: 'required|integer',
+    bookingDate: 'string'
   };
   validator(req.body, validationRule, {}, (err, status) => {
     if (!status) {
@@ -26,7 +27,8 @@ const saveBooking = (req, res, next) => {
 const saveClient = (req, res, next) => {
   const validationRule = {
     username: 'required|string',
-    name: 'required|string',
+    firstName: 'required|string',
+    lastName: 'required|string',
     address: 'required|string',
     birthdate: 'required|string',
     email: 'required|email',

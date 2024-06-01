@@ -27,7 +27,8 @@ const createClient = async (req, res) => { // POST Request
   //#swagger.tags=['Clients']
   const client = {
     username: req.body.username,
-    name: req.body.name,
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
     address: req.body.address,
     birthdate: req.body.birthdate,
     email: req.body.email,
@@ -50,7 +51,8 @@ const updateClient = async (req, res) => { // PUT Request
   const clientId = new ObjectId(req.params.id);
   const client = {
     username: req.body.username,
-    name: req.body.name,
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
     address: req.body.address,
     birthdate: req.body.birthdate,
     email: req.body.email,

@@ -26,6 +26,7 @@ const getSingle = async (req, res) => { // GET Request
 const createBooking = async (req, res) => { // POST Request
   //#swagger.tags=['Bookings']
   const booking = {
+    hotelId: req.body.hotelId,
     checkInDate: req.body.checkInDate,
     checkOutDate: req.body.checkOutDate,
     roomType: req.body.roomType,
@@ -49,6 +50,7 @@ const updateBooking = async (req, res) => { // PUT Request
   }
   const bookingId = new ObjectId(req.params.id);
   const booking = {
+    hotelId: req.body.hotelId,
     checkInDate: req.body.checkInDate,
     checkOutDate: req.body.checkOutDate,
     roomType: req.body.roomType,
